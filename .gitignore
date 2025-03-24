@@ -1,0 +1,104 @@
+# ------------------------------------------------------------------------------
+# Sistema Operacional
+# ------------------------------------------------------------------------------
+# OSX
+.DS_Store
+
+# ------------------------------------------------------------------------------
+# IDEs e Ferramentas de Desenvolvimento
+# ------------------------------------------------------------------------------
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains (Android Studio/IntelliJ)
+.idea/
+*.iml
+*.hprof
+*.ipr
+*.iws
+
+# Xcode
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.xcuserstate
+**/.xcode.env.local
+
+# Ruby/Bundler
+.bundle/
+/vendor/bundle/
+
+# ------------------------------------------------------------------------------
+# Builds e Artefatos
+# ------------------------------------------------------------------------------
+# Android
+build/
+.gradle/
+local.properties
+.cxx/
+*.keystore
+!debug.keystore
+android/app/build/
+android/app/google-services.json
+
+# iOS
+ios/build/
+ios/GoogleService-Info.plist
+*.ipa
+
+# Geral
+*.apk
+*.aab
+*.jsbundle
+
+# ------------------------------------------------------------------------------
+# Dependências
+# ------------------------------------------------------------------------------
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# CocoaPods
+**/Pods/
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# ------------------------------------------------------------------------------
+# Fastlane
+# ------------------------------------------------------------------------------
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
+
+# ------------------------------------------------------------------------------
+# Testes e Debug
+# ------------------------------------------------------------------------------
+/coverage
+.metro-health-check*
+
+# ------------------------------------------------------------------------------
+# Variáveis de Ambiente
+# ------------------------------------------------------------------------------
+.env
